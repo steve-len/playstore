@@ -70,7 +70,7 @@ sidebar = html.Div(
                 html.Span("Created by "),
                 html.A(
                     "Stefan Lences",
-                    href="https://github.com/steve-len",
+                    href="https://github.com/steve-len/playstore",
                     target="_blank",
                     className="text-white",
                 ),

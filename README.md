@@ -1,4 +1,5 @@
 # PLAYSTORE - DashApp
+https://github.com/steve-len/playstore
 
 Projekt je do niekolko sloziek:
 
@@ -23,7 +24,7 @@ pip3 install -e .
 
 ## Spustenie
 ```bash
-python3 -m ./src/playstore/main.py
+python3 ./src/playstore/main.py
 ```
 
 
@@ -56,4 +57,3 @@ pdoc src/playstore --docformat google --no-include-undocumented --output-dir doc
 - joblib **(pre ukladaniu modelu v ./pages/predicition)**
 - scikit-learrn **(pre vytvaranie modelu  ./pages/predicition)**
 
-# playstore
