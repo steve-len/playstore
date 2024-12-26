@@ -18,7 +18,7 @@ Pre beznu pracu instalacia v *development* mode do lokalne virtualneho prostredi
 
 ```bash
 python3 -m venv .vevn
-source ./.venv/bin/activate
+source ./.vevn/bin/activate
 pip3 install -e .
 ```
 
