@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "playstore"
+version = "1.0.0"
+description = "Sample pandas/dash 'data science' project"
+readme = "README.md"
+authors = [{ name = "Stefan Lences", email = "stefan@lences.com" }]
+license = { text = "GNU GPLv3" }
+requires-python = ">=3.10"
+dependencies = [
+    "dash",
+    "dash_bootstrap_components",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "plotly",
+    "joblib",
+    "scikit-learn"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU GPLv3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pdoc",
+]
+
+[project.scripts]
+dashboard = "playstore.main:main"
